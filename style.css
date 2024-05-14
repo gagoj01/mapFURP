@@ -1,0 +1,11 @@
+/* Increase font size for better readability on small screens */
+.leaflet-popup-content {
+    font-size: 16px; /* You can adjust the size as needed */
+}
+
+/* Ensure the map container is responsive */
+.leaflet-container {
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    position: absolute; /* Stretch to cover */
+}
